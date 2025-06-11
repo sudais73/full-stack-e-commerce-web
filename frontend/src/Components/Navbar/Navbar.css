@@ -1,0 +1,77 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+background: cadetblue;
+    box-shadow: 0 1px 3px -2px black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    color: white;
+}
+
+    .nav-logo{
+        display: flex;
+        gap: 5px;
+        align-items: center;
+    }
+    .nav-logo img{
+        width: 50px;
+    }
+.nav-logo p{
+    font-size: large;
+    font-weight: 600;
+}
+.nav-menu{
+display: flex;
+gap: 20px;
+align-items: center;
+list-style: none;
+font-weight: 300;
+font-size: 20px;
+cursor: pointer;
+  color: white;
+}
+.nav-menu li{color: white;}
+
+.nav-menu hr{
+    height: 3px;
+    background: red;
+    width: 80%;
+}
+
+.nav-login-cart{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.nav-login-cart button{
+    background: white;
+    border-radius: 50px;
+    width: 100px;
+    font-weight: 500;
+    padding: 10px 20px;
+    font-size: medium;
+    cursor: pointer;
+}
+.nav-login-cart img{
+    cursor: pointer;
+    width: 30px;
+}
+.nav-login-cart button:active{
+    background: cadetblue;
+}
+
+.nav-login-cart .count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    border-radius: 50%;
+    margin-left: -45px;
+    margin-top: -35px;
+
+}

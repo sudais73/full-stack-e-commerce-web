@@ -1,0 +1,36 @@
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+     background: linear-gradient(180deg,#fde1ff, #e1ffea22 60%);
+   
+}
+
+.newsletter p{
+font-weight: 600;
+font-size: large;
+}
+
+.newsletter div{
+   display: flex;
+   justify-content: space-between;
+   gap: 10px;
+}
+.newsletter input{
+    width: 100%;
+    padding: 10px;
+    outline-color: aqua;
+
+}
+
+.newsletter button{
+    width: 200px;
+    border-radius: 30px;
+    background: olive;
+    cursor: pointer;
+}

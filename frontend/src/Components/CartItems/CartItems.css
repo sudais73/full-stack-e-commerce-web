@@ -1,0 +1,111 @@
+.cartitems{
+    margin: 100px 170px;
+}
+
+.cartitems hr{
+    height: 3px;
+    background: gray;
+    border: none;
+}
+
+.cartitems-format-main{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap:75px;
+    padding: 20px 0;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cartitems-format{
+    font-size: 17px;
+    font-weight: 500;
+}
+.cartitems-format button{
+    width: 50px;
+    height: 30px;
+    border: 2px solid burlywood;
+    background: white;
+    border-radius: 4px;
+}
+.product-icon{
+    height: 60px;
+}
+
+.remove{
+    width: 15px;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.cartitems-down{
+    display: flex;
+    margin: 60px 0;
+}
+.cartitems-totals{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    gap: 40px;
+}
+.cartitems-total-item{
+   display: flex;
+   justify-content: space-between;
+   padding: 10px 0;
+
+}
+.cartitems-totals button{
+      width: 250px;
+      height: 50px;
+      outline: none;
+      border-radius: 2px;
+      background: rgb(128, 68, 0);
+      cursor: pointer;
+      color: white;
+      font-weight: 600;
+      font-size: 15px;
+}
+.cartitems-promo-code{
+    flex: 1;
+    font-weight: 500;
+      font-size: 15px;
+}
+.cartitems-promo-code p{
+    color: #454545;
+}
+
+.promobox{
+    width: 400px;
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 50px;
+    
+  
+    background: rgb(16, 105, 146);
+
+}
+.promobox input::placeholder{
+    font-size: 15px;
+    color: white;
+}
+.promobox input{
+    border: none;
+    color: white;
+    font-size: 15px;
+    outline: none;
+    width: 300px;
+    height: 50px;
+    padding-left: 30px;
+    background: transparent;
+}
+.promobox button{
+   width: 100px; 
+   height: 50px;
+   font-size: 15px;
+   background: black;
+   color: white;
+   cursor: pointer;
+}
