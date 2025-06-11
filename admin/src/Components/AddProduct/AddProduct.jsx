@@ -48,7 +48,7 @@ if(responseData.success){
         body:JSON.stringify(product)
     }).then((res)=>res.json().then((data)=>{
         if(data.success){
-            // alert(data.msg)
+            alert(data.msg)
         }
     }));
 }
